@@ -16,7 +16,7 @@ class RoleController extends Controller
     {
         // Middleware
         $this->middleware('sentinel.auth');
-        $this->middleware('sentinel.role:administrator');
+        $this->middleware('sentinel.role:admin');
 
         // Fetch the Role Repository from the IoC container
         $this->roleRepository = app()->make('sentinel.roles');

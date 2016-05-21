@@ -27,5 +27,12 @@ Route::resource('roles', 'RoleController');
 
 // Dashboard
 Route::get('dashboard', ['as' => 'dashboard', 'uses' => function() {
-    return view('dashboard');
+
+    $user = Sentinel::getUser();
+
+    if (!$user) {
+      return redirect('/login');
+    }
+
+    return view('dashboard', compact('user'));
 }]);
