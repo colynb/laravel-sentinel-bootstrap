@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d8ba950e993f0d75b2743a207eccc0ae",
-    "content-hash": "a61e3f3d0b936ebaee3fdf3e965429b6",
+    "hash": "9abe5ca08a219f68fe39d3c44ad3a357",
+    "content-hash": "f7f9203d9d931300d0e8813ea7d8315e",
     "packages": [
         {
             "name": "cartalyst/sentinel",
@@ -1053,60 +1053,6 @@
                 "shell"
             ],
             "time": "2016-03-09 05:03:14"
-        },
-        {
-            "name": "srlabs/centaur",
-            "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SRLabs/Centaur.git",
-                "reference": "0393909656a215520e8700f45156852eae938207"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SRLabs/Centaur/zipball/0393909656a215520e8700f45156852eae938207",
-                "reference": "0393909656a215520e8700f45156852eae938207",
-                "shasum": ""
-            },
-            "require": {
-                "cartalyst/sentinel": "^2.0",
-                "illuminate/support": "5.2.*",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "mockery/mockery": "^0.9.4",
-                "orchestra/testbench": "3.2.*",
-                "phpunit/phpunit": "4.*",
-                "symfony/css-selector": "2.8.*|3.0.*",
-                "symfony/dom-crawler": "2.8.*|3.0.*"
-            },
-            "suggest": {
-                "vinkla/hashids": "A Hashids bridge for Laravel 5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Centaur\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ryan Durham",
-                    "email": "ryan@stagerightlabs.com",
-                    "homepage": "http://stagerightlabs.com"
-                }
-            ],
-            "description": "An opinionated implementation of Cartalyst's Sentinel for Laravel 5",
-            "keywords": [
-                "auth",
-                "laravel",
-                "sentinel"
-            ],
-            "time": "2016-03-14 00:33:10"
         },
         {
             "name": "swiftmailer/swiftmailer",
