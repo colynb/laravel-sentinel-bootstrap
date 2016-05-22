@@ -36,3 +36,7 @@ Route::get('dashboard', ['as' => 'dashboard', 'uses' => function() {
 
     return view('dashboard', compact('user'));
 }]);
+
+Route::get('/', function() {
+  return view('welcome');
+});
