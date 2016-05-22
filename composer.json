@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "whatthecode/laravel-sentinel-bootstrap",
+    "description": "Bootstrap a Laravel App with Sentinel Authentication",
+    "keywords": ["framework", "laravel", "sentinel"],
     "license": "MIT",
     "type": "project",
     "require": {
