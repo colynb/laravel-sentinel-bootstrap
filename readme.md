@@ -5,7 +5,8 @@ Bootstrap a Laravel App with Sentinel Authentication
 For best results, install this by issuing the Composer `create-project` command in your terminal:
 
 ```
-composer create-project whatthecode/laravel-sentinel-bootstrap fsbo dev-master
+composer create-project whatthecode/laravel-sentinel-bootstrap [APPNAME] dev-master
+cd [APPNAME]
 ```
 
 ## Database Migrations and Seeding
@@ -30,6 +31,8 @@ php artisan migrate
 ```
 
 #### Seeding
+
+Before running this command, make sure you review and/or modify the seeder (found in `database/seeds/SentinelDatabaseSeeder.php`) to better suit your needs.
 
 ```
 php artisan db:seed --class=SentinelDatabaseSeeder
